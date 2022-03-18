@@ -1,5 +1,8 @@
 # Functions Outputs
 
 def format_name(f_name, l_name):
-  f_name.
-  
+  first = f_name.title()
+  last = l_name.title()
+  return f"{first} {last}"
+
+print(format_name("JASon", "SHockNess"))
